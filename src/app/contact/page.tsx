@@ -109,9 +109,9 @@ export default function Contact() {
               {/* Google Map */}
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50450689.78851898!2d-97.89615596549635!3d39.485913812985345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870974b3a051dc7%3A0xd273eed5a47ac074!2sSwan%20bar%20and%20grill!5e0!3m2!1sen!2snp!4v1765450627039!5m2!1sen!2snp"
-                  width="100%"
-                  height="450"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.0773371756773!2d-2.085509923058509!3d52.49583963801762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870974b3a051dc7%3A0xd273eed5a47ac074!2sSwan%20bar%20and%20grill!5e0!3m2!1sen!2snp!4v1765458495782!5m2!1sen!2snp"
+                  width="600"
+                  height="600"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
