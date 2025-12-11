@@ -2,7 +2,7 @@
 
 import { Navbar } from "@/src/components/navbar";
 import { Footer } from "@/src/components/footer";
-import { Clock, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -52,7 +52,28 @@ export default function Contact() {
                         Phone
                       </h3>
                     </div>
-                    <p className="text-rose-700/80 ml-11">+44 7403 068174</p>
+                    <a
+                      href="tel:+44 7403 068174"
+                      className="text-rose-700/80 ml-11"
+                    >
+                      +44 7403 068174
+                    </a>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center gap-3 mb-2">
+                      <Mail className="w-6 h-6 text-rose-900" />
+                      <h3 className="text-lg font-semibold text-rose-900">
+                        Mail
+                      </h3>
+                    </div>
+
+                    <a
+                      href="mailto:info@crownbarandgrill.co.uk.com"
+                      className="text-rose-700/80 ml-11"
+                    >
+                      info@crownbarandgrill.co.uk.com
+                    </a>
                   </div>
 
                   <div>

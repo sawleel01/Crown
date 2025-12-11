@@ -1,4 +1,4 @@
-import { Clock, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Restaurant Info */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Crown Bar & Grill</h3>
+            <h3 className="text-base font-bold mb-4">Crown Bar & Grill</h3>
             <p className="text-sm text-rose-800/70">
               Experience culinary excellence and warm hospitality in our
               intimate dining space.
@@ -18,9 +18,9 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-2">
               <Clock className="w-6 h-6 text-rose-900" />
-              <h3 className="text-lg font-semibold text-rose-900">Hours</h3>
+              <h3 className="text-base font-bold text-rose-900">Hours</h3>
             </div>
-            <div className="text-rose-700/80 ml-11 text-sm">
+            <div className="text-sm text-rose-700/80 ml-11">
               <p>
                 <span className="italic font-semibold">Opening:</span> 12 PM -
                 11 PM Daily
@@ -32,7 +32,7 @@ export function Footer() {
               <p className="mt-2">
                 <span className="italic font-semibold">Delivery:</span>
               </p>
-              <ul className="list-disc list-inside text-rose-700 ml-4 mt-1">
+              <ul className="list-disc list-inside ml-4 mt-1">
                 <li>Mon: 5 PM - 12 AM</li>
                 <li>Tue: 12 AM - 10 PM</li>
                 <li>Wed - Sun: 5 PM - 10 PM</li>
@@ -42,15 +42,41 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Contact</h3>
-            <div className="text-sm space-y-2 text-rose-800/70">
-              <p className="flex items-center gap-2">
-                <Phone className="w-4 h-4" /> +44 7403 068174
-              </p>
-              <p className="flex items-center gap-2">
-                <MapPin className="w-4 h-4" /> 45 Baptist End Rd, Netherton,
-                Dudley DY2 9DJ, United Kingdom
-              </p>
+            <h3 className="text-base font-bold mb-4">Contact</h3>
+            <div className="text-sm text-rose-700/80 space-y-2">
+              <div>
+                <div className="flex justify-center gap-3 mb-2">
+                  <MapPin className="w-6 h-6 text-rose-700/80" />
+                  <p className="text-sm font-semibold text-rose-700/80">
+                    Address:{" "}
+                  </p>
+                  <p className="text-rose-700/80">
+                    45 Baptist End Rd, Netherton, Dudley DY2 9DJ, United Kingdom
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div className="flex items-center gap-3 mb-2">
+                  <Phone className="w-3 h-3 text-rose-700/80" />
+                  <p className="text-sm font-bold text-rose-700/80">Phone:</p>
+                  <a href="tel:+44 7403 068174" className=" hover:underline">
+                    +44 7403 068174
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex items-center gap-3 mb-2">
+                  <Mail className="w-3 h-3 text-rose-700/80" />
+                  <p className="text-sm font-bold text-rose-700/80">Mail:</p>
+                  <a
+                    href="mailto:info@crownbarandgrill.co.uk.com"
+                    className=" hover:underline"
+                  >
+                    info@crownbarandgrill.co.uk.com
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
