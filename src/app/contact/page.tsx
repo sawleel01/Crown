@@ -2,7 +2,7 @@
 
 import { Navbar } from "@/src/components/navbar";
 import { Footer } from "@/src/components/footer";
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, MapPin, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
