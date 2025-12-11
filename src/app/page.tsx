@@ -24,7 +24,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <button className="bg-rose-900 text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity text-lg">
-                  Reserve Your Table
+                  Order Online
                 </button>
               </a>
             </div>
