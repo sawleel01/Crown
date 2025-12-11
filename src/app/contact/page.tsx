@@ -62,12 +62,12 @@ export default function Contact() {
                         Hours
                       </h3>
                     </div>
-                    <p className="text-rose-700/80 ml-11 ">
+                    <div className="text-rose-700/80 ml-11 ">
                       <span className="italic font-semibold">Opening:</span> 12
                       - 11PM Daily
                       <br />
                       <span className="italic font-semibold">
-                        Takeout:
+                        Takeout & Dinner:
                       </span>{" "}
                       4:30 - 10PM Daily
                       <br />
@@ -80,9 +80,7 @@ export default function Contact() {
                         </ul>
                       </div>
                       <br />
-                      <span className="itali font-semibold">Dinner:</span> 4:30
-                      - 10 PM Daily
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>

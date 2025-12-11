@@ -14,31 +14,30 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Hours */}
+          {/* Hours & Delivery */}
           <div>
             <div className="flex items-center gap-3 mb-2">
               <Clock className="w-6 h-6 text-rose-900" />
               <h3 className="text-lg font-semibold text-rose-900">Hours</h3>
             </div>
-            <p className="text-rose-700/80 ml-11 ">
-              <span className="italic font-semibold">Opening:</span> 12 - 11PM
-              Daily
-              <br />
-              <span className="italic font-semibold">Takeout:</span> 4:30 - 10PM
-              Daily
-              <br />
-              <div>
+            <div className="text-rose-700/80 ml-11 text-sm">
+              <p>
+                <span className="italic font-semibold">Opening:</span> 12 PM -
+                11 PM Daily
+              </p>
+              <p>
+                <span className="italic font-semibold">Takeout & Dinner:</span>{" "}
+                4:30 PM - 10 PM Daily
+              </p>
+              <p className="mt-2">
                 <span className="italic font-semibold">Delivery:</span>
-                <ul className="list-disc list-inside text-rose-700">
-                  <li>Mon: 5 PM - 12 PM</li>
-                  <li>Tue: 12 AM - 10 PM</li>
-                  <li>Wed - Sun: 5 PM - 10 PM</li>
-                </ul>
-              </div>
-              <br />
-              <span className="itali font-semibold">Dinner:</span> 4:30 - 10 PM
-              Daily
-            </p>
+              </p>
+              <ul className="list-disc list-inside text-rose-700 ml-4 mt-1">
+                <li>Mon: 5 PM - 12 AM</li>
+                <li>Tue: 12 AM - 10 PM</li>
+                <li>Wed - Sun: 5 PM - 10 PM</li>
+              </ul>
+            </div>
           </div>
 
           {/* Contact */}
@@ -48,7 +47,6 @@ export function Footer() {
               <p className="flex items-center gap-2">
                 <Phone className="w-4 h-4" /> +44 7403 068174
               </p>
-
               <p className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" /> 45 Baptist End Rd, Netherton,
                 Dudley DY2 9DJ, United Kingdom
@@ -57,9 +55,9 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="h-0.5 bg-white my-2"></div>
+        <div className="h-0.5 bg-white/50 my-2"></div>
 
-        <div className="mt-2 border-t border-white/10 py-6">
+        <div className="mt-2 py-6">
           <p className="text-center text-sm text-rose-900">
             © {new Date().getFullYear()} Crown Bar & Grill. All rights reserved
             by{" "}
